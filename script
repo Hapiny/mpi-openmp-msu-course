@@ -1,0 +1,23 @@
+ompsubmit -w 10:00 -n 6  -stdout   /home/edu-cmc-skpod17-327-10/Documents/omp-100-6.out omp 100   6
+ompsubmit -w 10:00 -n 6  -stdout   /home/edu-cmc-skpod17-327-10/Documents/omp-500-6.out omp 500   6
+ompsubmit -w 10:00 -n 6  -stdout  /home/edu-cmc-skpod17-327-10/Documents/omp-1000-6.out omp 1000  6
+ompsubmit -w 10:00 -n 6  -stdout  /home/edu-cmc-skpod17-327-10/Documents/omp-2000-6.out omp 2000  6
+ompsubmit -w 10:00 -n 6  -stdout  /home/edu-cmc-skpod17-327-10/Documents/omp-4000-6.out omp 4000  6
+ompsubmit -w 10:00 -n 6  -stdout  /home/edu-cmc-skpod17-327-10/Documents/omp-6000-6.out omp 6000  6
+ompsubmit -w 10:00 -n 6  -stdout  /home/edu-cmc-skpod17-327-10/Documents/omp-8000-6.out omp 8000  6
+ompsubmit -w 10:00 -n 6  -stdout /home/edu-cmc-skpod17-327-10/Documents/omp-10000-6.out omp 10000 6
+ompsubmit -w 10:00 -n 6  -stdout /home/edu-cmc-skpod17-327-10/Documents/omp-12000-6.out omp 12000 6
+ompsubmit -w 10:00 -n 6  -stdout /home/edu-cmc-skpod17-327-10/Documents/omp-14000-6.out omp 14000 6
+ompsubmit -w 10:00 -n 6  -stdout /home/edu-cmc-skpod17-327-10/Documents/omp-16000-6.out omp 16000 6
+
+ompsubmit -w 10:00 -n 12  -stdout   /home/edu-cmc-skpod17-327-10/Documents/omp-100-12.out omp 100   12
+ompsubmit -w 10:00 -n 12  -stdout   /home/edu-cmc-skpod17-327-10/Documents/omp-500-12.out omp 500   12
+ompsubmit -w 10:00 -n 12  -stdout  /home/edu-cmc-skpod17-327-10/Documents/omp-1000-12.out omp 1000  12
+ompsubmit -w 10:00 -n 12  -stdout  /home/edu-cmc-skpod17-327-10/Documents/omp-2000-12.out omp 2000  12
+ompsubmit -w 10:00 -n 12  -stdout  /home/edu-cmc-skpod17-327-10/Documents/omp-4000-12.out omp 4000  12
+ompsubmit -w 10:00 -n 12  -stdout  /home/edu-cmc-skpod17-327-10/Documents/omp-6000-12.out omp 6000  12
+ompsubmit -w 10:00 -n 12  -stdout  /home/edu-cmc-skpod17-327-10/Documents/omp-8000-12.out omp 8000  12
+ompsubmit -w 10:00 -n 12  -stdout /home/edu-cmc-skpod17-327-10/Documents/omp-10000-12.out omp 10000 12
+ompsubmit -w 10:00 -n 12  -stdout /home/edu-cmc-skpod17-327-10/Documents/omp-12000-12.out omp 12000 12
+ompsubmit -w 10:00 -n 12  -stdout /home/edu-cmc-skpod17-327-10/Documents/omp-14000-12.out omp 14000 12
+ompsubmit -w 10:00 -n 12  -stdout /home/edu-cmc-skpod17-327-10/Documents/omp-16000-12.out omp 16000 12
