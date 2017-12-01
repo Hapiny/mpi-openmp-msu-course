@@ -1,4 +1,3 @@
-import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
@@ -24,8 +23,8 @@ for proc in proc_list:
 			else:	
 				colours.append('green')
 				
-		y.append(proc-0.5)
 		x.append(size-0.5)
+		y.append(proc-0.5)
 		z.append(0)
 
 		dx.append(800)
@@ -40,7 +39,7 @@ ax3d.set_xlabel('Matrix size')
 ax3d.set_zlabel('Time (in seconds)')
 
 ax3d.invert_xaxis()
-# ax3d.invert_yaxis()
+ax3d.invert_yaxis()
 
 plt.show()
 
