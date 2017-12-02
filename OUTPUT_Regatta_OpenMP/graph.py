@@ -23,7 +23,7 @@ for proc in proc_list:
 			else:	
 				colours.append('green')
 				
-		x.append(size-0.5)
+		x.append(size-400)
 		y.append(proc-0.5)
 		z.append(0)
 
