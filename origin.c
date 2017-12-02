@@ -4,7 +4,7 @@
 #include <stdio.h>
 #define  Max(a,b) ((a)>(b)?(a):(b))
 
-#define  N   500
+#define  N   100
 double   maxeps = 0.1e-7;
 int itmax = 100;
 int i,j,k;
@@ -27,7 +27,7 @@ int main(int an, char **as)
 	{
 		eps = 0.;
 		relax();
-		//printf("Iteration = %d, Eps = %f\n", it, eps);
+		printf("Iteration = %d, Eps = %.8f\n", it, eps);
 		if (eps < maxeps) break;
 	}
 

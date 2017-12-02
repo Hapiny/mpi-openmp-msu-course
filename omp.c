@@ -38,7 +38,6 @@ main(int an, char **as)
 	{
 		eps = 0.0;
 		relax(size, A, thread_num);
-		//printf("Iteration = %d, Eps = %f\n", it, eps);
 		if (eps < maxeps) break;
 	}
 	
@@ -86,7 +85,6 @@ relax(int size, double *matrix, int thread_num)
 			e = matrix[i * size + j];
 			matrix[i * size + j] = (matrix[(i-1) * size + j] + matrix[(i+1) * size + j] +
 									matrix[i * size + (j-1)] + matrix[i * size + (j+1)])/4.;
-			eps = Max(eps, fabs(e-matrix[i * size + j]));
 			tmp = fabs(e-matrix[i * size + j]);
 			if ((dif = tmp - eps) > 0)   
 			{
@@ -110,7 +108,6 @@ verify(int size, double *matrix, int thread_num)
 			s += matrix[i * size + j] * (i+1) * (j+1) / (size * size);
 		}
 	}
-	//printf("S = %f\n",s);
 }
 
 
