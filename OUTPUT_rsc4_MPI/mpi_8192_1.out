@@ -1,0 +1,3 @@
+call_batch: run string - /usr/runmvs/bin/runtask '/home/pod32710/MPI_results/go_8192.1/runmvs.bat' '/home/pod32710/MPI_results/go_8192.1/.hosts' '/common/runmvs/lock/tasks/pod32710.go_8192.1/ret_code' '/usr/runmvs/users/pod32710/queue/go_8192.1'
+Seconds = 157.944762
+
